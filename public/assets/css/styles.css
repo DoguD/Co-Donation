@@ -88,10 +88,18 @@ footer .footer-contents {
 }
 
 .currency-list{
-
+  align-items: center;
+  background-color: #4a4969;
 }
-.currency-list .logo {
-  width: 5%;
+.currency-list ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333333;
+}
+.currency-list ul li {
+  float: left;
 }
 
 .partner-organizations{
