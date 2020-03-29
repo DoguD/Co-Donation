@@ -70,6 +70,14 @@ body {
   line-height: 30px;
 }
 
+.plsEndMyLife b {
+    font-family: monospace;
+}
+
+.plsEndMyLife {
+    text-align: center;
+}
+
 a:hover,
 a:visited,
 a:focus,
