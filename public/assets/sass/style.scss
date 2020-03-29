@@ -1,0 +1,255 @@
+/***************************************************************************************************************
+|||||||||||||||||||||||||||||||       MASTER STYLESHEET FOR Bomex             ||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************
+****************************************************************************************************************
+* 1. imported styles
+* 2. miscelnious styles
+* 3. header styles
+* 4. banner styles
+* 5. search popup styles
+* 6. hidden sidebar styles
+* 7. features styles
+* 8. about styles
+* 9. fun fact styles
+* 10. blog styles
+* 11. btc calculator styles
+* 12. how it works styles
+* 13. charts styles
+* 14. team styles
+* 15. footer styles
+* 16. countdown styles
+* 17. cta styles
+* 18. testimonials styles
+* 19. brand styles
+* 20. btc ticker styles
+* 21. video box styles
+* 22. video box styles
+* 23. timeline styles
+* 24. token sales styles
+* 25. press release styles
+* 26. contact styles
+* 27. coin statics styles
+* 28. case study styles
+* 29. service styles
+* 30. exchange styles
+* 31. inner banner styles
+* 32. errpr 404 styles
+* 33. transfer btc styles
+* 34. sidebar styles
+****************************************************************************************************************
+||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
+****************************************************************************************************************/
+
+
+// math functions are not included in sass
+@import "drop-shadow-converter/mathfunctions";
+// import converter
+@import "drop-shadow-converter/drop-shadow-converter";
+// template sass helper functions
+@import "helper-function";
+
+/**************************
+* 1. imported styles
+***************************/
+
+@import 'modules/imported';
+
+/**************************
+* 2. miscelnious styles
+***************************/
+
+@import 'modules/miscelnious';
+
+/**************************
+* 3. header styles
+***************************/
+
+@import 'modules/header';
+
+/**************************
+* 4. banner styles
+***************************/
+
+@import 'modules/banner';
+
+/**************************
+* 5. search popup styles
+***************************/
+
+@import 'modules/search-popup';
+
+/**************************
+* 6. hidden sidebar styles
+***************************/
+
+@import 'modules/hidden-sidebar';
+
+/**************************
+* 7. features styles
+***************************/
+
+@import 'modules/features';
+
+/**************************
+* 8. about styles
+***************************/
+
+@import 'modules/about';
+
+/**************************
+* 9. fun fact styles
+***************************/
+
+@import 'modules/fun-fact';
+
+/**************************
+* 10. blog styles
+***************************/
+
+@import 'modules/blog';
+
+/**************************
+* 11. btc calculator styles
+***************************/
+
+@import 'modules/btc-calculator';
+
+/**************************
+* 12. how it works styles
+***************************/
+
+@import 'modules/how-it-works';
+
+/**************************
+* 13. charts styles
+***************************/
+
+@import 'modules/chart';
+
+/**************************
+* 14. team styles
+***************************/
+
+@import 'modules/team';
+
+/**************************
+* 15. footer styles
+***************************/
+
+@import 'modules/footer';
+
+/**************************
+* 16. countdown styles
+***************************/
+
+@import 'modules/countdown';
+
+/**************************
+* 17. cta styles
+***************************/
+
+@import 'modules/cta';
+
+/**************************
+* 18. testimonials styles
+***************************/
+
+@import 'modules/testimonials';
+
+/**************************
+* 19. brand styles
+***************************/
+
+@import 'modules/brand';
+
+/**************************
+* 20. btc ticker styles
+***************************/
+
+@import 'modules/btc-ticker-slider';
+
+/**************************
+* 21. video box styles
+***************************/
+
+@import 'modules/video-box';
+
+/**************************
+* 22. video box styles
+***************************/
+
+@import 'modules/token-distribution';
+
+/**************************
+* 23. timeline styles
+***************************/
+
+@import 'modules/timeline';
+
+/**************************
+* 24. token sales styles
+***************************/
+
+@import 'modules/token-sales';
+
+/**************************
+* 25. press release styles
+***************************/
+
+@import 'modules/press-release';
+
+/**************************
+* 26. contact styles
+***************************/
+
+@import 'modules/contact';
+
+/**************************
+* 27. coin statics styles
+***************************/
+
+@import 'modules/coin-statics';
+
+/**************************
+* 28. case study styles
+***************************/
+
+@import 'modules/case-study';
+
+/**************************
+* 29. service styles
+***************************/
+
+@import 'modules/services';
+
+/**************************
+* 30. exchange styles
+***************************/
+
+@import 'modules/exchange';
+
+/**************************
+* 31. inner banner styles
+***************************/
+
+@import 'modules/inner-banner';
+
+/**************************
+* 32. errpr 404 styles
+***************************/
+
+@import 'modules/error-404';
+
+/**************************
+* 33. transfer btc styles
+***************************/
+
+@import 'modules/transfer-btc';
+
+/**************************
+* 34. sidebar styles
+***************************/
+
+@import 'modules/sidebar';
