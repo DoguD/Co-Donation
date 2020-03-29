@@ -28,6 +28,7 @@
     <link rel="stylesheet" href="assets/css/modaal.css">
     <script src="assets/js/jquery.js"></script>
     <script src="assets/js/modaal.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.js"></script>
 </head>
 
 <body class="">
@@ -124,7 +125,7 @@
     </section><!-- /.inner-banner -->
 
 
-    <section class="dark-blue-bg sec-pad team-style-two">
+    <section id="particles-js" class="dark-blue-bg sec-pad team-style-two">
         <div class="thm-container">
             <div class="sec-title light-two text-center">
                 <span>selection of cryptocurrencies</span>
@@ -149,8 +150,8 @@
                 <div class="cryptoModal" id="bitcoinModal" style="display:none; align-content: center;">
                     <p class="plsEndMyLife" style="position:relative;">Deposit Address: <b>32AcnV3ky691NM6Suuov9SuLZcbugZDXwQ</b></p>
                 </div>
-                
-                
+
+
                 <a href="#litecoinModal" class="inline">
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="single-team-style-two text-center">
@@ -168,8 +169,8 @@
                 <div class="cryptoModal" id="litecoinModal" style="display:none; align-content: center;">
                     <p class="plsEndMyLife" style="position:relative;">Deposit Address: <b>LfEqCHrZqGM57DDuCcCa2AyMhHZC3pYsKM</b></p>
                 </div>
-                
-                
+
+
                 <a href="#bitcoinCashModal" class="inline">
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="single-team-style-two text-center">
@@ -188,7 +189,8 @@
                     <p class="plsEndMyLife" style="position:relative;">Deposit Address: <b>bitcoincash:qqw5v4mj08ku454rdvy8jvxz8ka50llpmudmz32wec</b></p>
                 </div>
                 
-                <a href="#">
+
+                <a href="#binanceCoinModal" class="inline">
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="single-team-style-two text-center">
                             <div class="img-box">
@@ -202,23 +204,34 @@
                         </div><!-- /.single-team-style-two -->
                     </div><!-- /.col-md-3 -->
                 </a>
+                <div class="cryptoModal" id="binanceCoinModal" style="display:none; align-content: center;">
+                    <p class="plsEndMyLife" style="position:relative;">Deposit Address: <b>bnb18ajhl2q9xaf4ve0nklyudem5c5ufn3ugpuhgea</b></p>
+                    <p class="plsEndMyLife" style="position:relative;">Extra ID: <b>1487662472252509</b></p>
+                </div>
+                
+                
             </div><!-- /.row -->
             <div class="row">
-                <a href="#">
+                <a href="#ethereumModal" class="inline">
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="single-team-style-two text-center">
                             <div class="img-box">
                                 <img src="assets/img/cryptoLogos/eth.png" alt="Awesome Image" />
                             </div><!-- /.img-box -->
                             <div class="text-box">
-                                <h3>Etherium</h3>
+                                <h3>Ethereum</h3>
                                 <p>Click to see the wallet id</p>
 
                             </div><!-- /.text-box -->
                         </div><!-- /.single-team-style-two -->
                     </div><!-- /.col-md-3 -->
                 </a>
-                <a href="#">
+                <div class="cryptoModal" id="ethereumModal" style="display:none; align-content: center;">
+                    <p class="plsEndMyLife" style="position:relative;">Deposit Address: <b>0x8fa191e1f8f616b974f55a9b3031097bb66c94e2</b></p>
+                </div>
+                
+                
+                <a href="#moneroModal" class="inline">
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="single-team-style-two text-center">
                             <div class="img-box">
@@ -232,7 +245,12 @@
                         </div><!-- /.single-team-style-two -->
                     </div><!-- /.col-md-3 -->
                 </a>
-                <a href="#">
+                <div class="cryptoModal" id="moneroModal" style="display:none; align-content: center;">
+                    <p class="plsEndMyLife" style="position:relative;">Deposit Address: <b>89p197uzxeyivxUP3Da838XrGR6N7Xm4JSgd1E8URQESiiJdFsqxiQqEAdECUhvJMvQDxXsAPhQTb31dwEJQ58YvJ826KMx</b></p>
+                </div>
+                
+                
+                <a href="#tetherModal" class="inline">
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="single-team-style-two text-center">
                             <div class="img-box">
@@ -246,6 +264,11 @@
                         </div><!-- /.single-team-style-two -->
                     </div><!-- /.col-md-3 -->
                 </a>
+                <div class="cryptoModal" id="tetherModal" style="display:none; align-content: center;">
+                    <p class="plsEndMyLife" style="position:relative;">Deposit Address: <b>3DDPocL1j2s3tdsFeCiZQe1yJiForr9Fc2</b></p>
+                </div>
+                
+                
                 <a href="#">
                     <div class="col-md-3 col-sm-6 col-xs-12">
                         <div class="single-team-style-two text-center">
@@ -513,8 +536,11 @@
     <div class="scroll-to-top scroll-to-target" data-target="html"><i class="fa fa-angle-up"></i></div>
 
     <script type="text/javascript">
-        
         $('.inline').modaal();
+
+        particlesJS.load('particles-js', 'assets/json/particles.json', function() {
+            console.log('callback - particles.js config loaded');
+        });
 
     </script>
 
@@ -530,8 +556,7 @@
     <script src="assets/js/jquery.counterup.min.js"></script>
     <script src="assets/js/wow.min.js"></script>
     <script src="assets/js/jquery.easing.min.js"></script>
-    <script src="assets/js/particles.min.js"></script>
-    <script src="assets/js/particles-config.js"></script>
+
     <script src="assets/js/Chart.min.js"></script>
     <script src="assets/js/chart-config.js"></script>
     <script src="assets/js/custom.js"></script>
