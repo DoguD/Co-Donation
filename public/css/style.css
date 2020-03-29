@@ -167,12 +167,12 @@ a:active {
   color: #fff;
 }
 .thm-btn.blue-bg {
-  background: #45319E;
+  background: #4287f5;
   color: #fff;
 }
 .thm-btn.blue-bg:hover {
-  background: #171717;
-  color: #fff;
+  background: #fff;
+  color: #4287f5;
 }
 
 .sec-title {
