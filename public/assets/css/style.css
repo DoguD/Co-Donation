@@ -326,7 +326,8 @@ body.active-preloader-ovh {
   padding: 0px 0;
 }
 .header-navigation .thm-container .main-navigation {
-  text-align: center;
+  float: right;
+  left: 40px;
   padding: 0;
 }
 .header-navigation .thm-container .right-side-box {
