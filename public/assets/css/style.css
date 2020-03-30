@@ -72,6 +72,26 @@
     font-style: normal;
   }
 
+@font-face {
+    font-family: 'RecoletaAlt-Medium';
+    src: local('Recoleta Alt Medium'), local('Recoleta-Alt-Medium'),
+        url('RecoletaAlt-Medium.woff2') format('woff2'),
+        url('RecoletaAlt-Medium.woff') format('woff'),
+        url('RecoletaAlt-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }
+
+@font-face {
+    font-family: 'RecoletaAlt-Light';
+    src: local('Recoleta Alt Light'), local('Recoleta-Alt-Light'),
+        url('RecoletaAlt-Light.woff2') format('woff2'),
+        url('RecoletaAlt-Light.woff') format('woff'),
+        url('RecoletaAlt-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+  }
+
 /************************** 
 * 2. miscelnious styles 
 ***************************/
@@ -84,6 +104,9 @@ body {
 
 .plsEndMyLife b {
     font-family: monospace;
+    padding: 10px;
+    background: #d9d9d9;
+    border-radius: 3px;
 }
 
 .plsEndMyLife {
@@ -92,8 +115,18 @@ body {
 
 .changedFont h3 {
     
-    font-family: "Recoleta";
+    font-family: "RecoletaAlt-Light";
     
+}
+
+changedFont h3 {
+    
+    font-family: "RecoletaAlt-Light";
+    
+}
+
+.recoletaAltMedium {
+    font-family: "RecoletaAlt-Medium";
 }
 
 a:hover,
