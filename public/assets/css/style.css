@@ -4,45 +4,45 @@
 ||||||||||||||||||||||||||||              TABLE OF CONTENT                  ||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************
 ****************************************************************************************************************
-* 1. imported styles 
-* 2. miscelnious styles 
-* 3. header styles 
-* 4. banner styles 
-* 5. search popup styles 
-* 6. hidden sidebar styles 
-* 7. features styles 
-* 8. about styles 
-* 9. fun fact styles 
-* 10. blog styles 
-* 11. btc calculator styles 
-* 12. how it works styles 
-* 13. charts styles 
-* 14. team styles 
-* 15. footer styles 
-* 16. countdown styles 
-* 17. cta styles 
-* 18. testimonials styles 
-* 19. brand styles 
-* 20. btc ticker styles 
-* 21. video box styles 
-* 22. video box styles 
-* 23. timeline styles 
-* 24. token sales styles 
-* 25. press release styles 
-* 26. contact styles 
-* 27. coin statics styles 
-* 28. case study styles 
-* 29. service styles 
-* 30. exchange styles 
-* 31. inner banner styles 
-* 32. errpr 404 styles 
-* 33. transfer btc styles 
-* 34. sidebar styles 
+* 1. imported styles
+* 2. miscelnious styles
+* 3. header styles
+* 4. banner styles
+* 5. search popup styles
+* 6. hidden sidebar styles
+* 7. features styles
+* 8. about styles
+* 9. fun fact styles
+* 10. blog styles
+* 11. btc calculator styles
+* 12. how it works styles
+* 13. charts styles
+* 14. team styles
+* 15. footer styles
+* 16. countdown styles
+* 17. cta styles
+* 18. testimonials styles
+* 19. brand styles
+* 20. btc ticker styles
+* 21. video box styles
+* 22. video box styles
+* 23. timeline styles
+* 24. token sales styles
+* 25. press release styles
+* 26. contact styles
+* 27. coin statics styles
+* 28. case study styles
+* 29. service styles
+* 30. exchange styles
+* 31. inner banner styles
+* 32. errpr 404 styles
+* 33. transfer btc styles
+* 34. sidebar styles
 ****************************************************************************************************************
 ||||||||||||||||||||||||||||            End TABLE OF CONTENT                ||||||||||||||||||||||||||||||||||||
 ****************************************************************************************************************/
-/************************** 
-* 1. imported styles 
+/**************************
+* 1. imported styles
 ***************************/
 @import url(https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i);
 @import url(bootstrap.min.css);
@@ -92,8 +92,8 @@
     font-style: normal;
   }
 
-/************************** 
-* 2. miscelnious styles 
+/**************************
+* 2. miscelnious styles
 ***************************/
 body {
     font-family: 'Poppins';
@@ -114,15 +114,15 @@ body {
 }
 
 .changedFont h3 {
-    
+
     font-family: "RecoletaAlt-Light";
-    
+
 }
 
 changedFont h3 {
-    
+
     font-family: "RecoletaAlt-Light";
-    
+
 }
 
 .recoletaAltMedium {
@@ -385,8 +385,8 @@ body.active-preloader-ovh {
     }
 }
 
-/************************** 
-* 3. header styles 
+/**************************
+* 3. header styles
 ***************************/
 .header-navigation {
     background-color: #181818;
@@ -665,8 +665,8 @@ body.active-preloader-ovh {
     background: #201940;
 }
 
-/************************** 
-* 4. banner styles 
+/**************************
+* 4. banner styles
 ***************************/
 #minimal-bootstrap-carousel {
     margin-top: 0px;
@@ -1142,8 +1142,8 @@ body.active-preloader-ovh {
     margin-left: 10px;
 }
 
-/************************** 
-* 5. search popup styles 
+/**************************
+* 5. search popup styles
 ***************************/
 .search_area {
     position: relative;
@@ -1314,8 +1314,8 @@ body.active-preloader-ovh {
     opacity: 0;
 }
 
-/************************** 
-* 6. hidden sidebar styles 
+/**************************
+* 6. hidden sidebar styles
 ***************************/
 .hidden-sidebar {
     position: fixed;
@@ -1396,16 +1396,21 @@ body.active-preloader-ovh {
     color: #F9B81F;
 }
 
-/************************** 
-* 7. features styles 
+/**************************
+* 7. features styles
 ***************************/
 .feature-style-one .single-feature-style-one .icon-box {
     width: 140px;
     height: 140px;
     background: #171717;
-    display: inline-block;
+    /*display: inline-block;*/
     border-radius: 50%;
     margin-bottom: 45px;
+}
+
+.main-page-crypto-logo {
+    width: 140px;
+    height: 140px;
 }
 
 .feature-style-one .single-feature-style-one .icon-box i {
@@ -1510,8 +1515,8 @@ body.active-preloader-ovh {
     color: #F9B81F;
 }
 
-/************************** 
-* 8. about styles 
+/**************************
+* 8. about styles
 ***************************/
 .about-style-one .about-style-one-content span {
     color: #707070;
@@ -1626,8 +1631,8 @@ body.active-preloader-ovh {
     line-height: 30px;
 }
 
-/************************** 
-* 9. fun fact styles 
+/**************************
+* 9. fun fact styles
 ***************************/
 .fun-fact-style-one .single-fun-fact-style-one i {
     color: #F9B81F;
@@ -1686,8 +1691,8 @@ body.active-preloader-ovh {
     color: #181818;
 }
 
-/************************** 
-* 10. blog styles 
+/**************************
+* 10. blog styles
 ***************************/
 .single-blog-style-one {
     margin-bottom: 60px;
@@ -2175,8 +2180,8 @@ body.active-preloader-ovh {
     height: 160px;
 }
 
-/************************** 
-* 11. btc calculator styles 
+/**************************
+* 11. btc calculator styles
 ***************************/
 .btc-calculator {
     position: relative;
@@ -2274,8 +2279,8 @@ body.active-preloader-ovh {
     color: #fff;
 }
 
-/************************** 
-* 12. how it works styles 
+/**************************
+* 12. how it works styles
 ***************************/
 .single-how-it-works .icon-box {
     display: inline-block;
@@ -2339,8 +2344,8 @@ body.active-preloader-ovh {
     background: transparent url(../img/arrow-1-1.png) center center no-repeat;
 }
 
-/************************** 
-* 13. charts styles 
+/**************************
+* 13. charts styles
 ***************************/
 .coin-chart-style-one .chart-title {
     margin-bottom: 20px;
@@ -2363,8 +2368,8 @@ body.active-preloader-ovh {
     font-size: 16px;
 }
 
-/************************** 
-* 14. team styles 
+/**************************
+* 14. team styles
 ***************************/
 .team-style-one {
     padding-bottom: 60px;
@@ -2576,8 +2581,8 @@ body.active-preloader-ovh {
     color: #F9B81F;
 }
 
-/************************** 
-* 15. footer styles 
+/**************************
+* 15. footer styles
 ***************************/
 .footer-top {
     background: #181818;
@@ -2779,8 +2784,8 @@ footer.site-footer.blue-bg .single-footer-widget ul.links-list li a:hover {
     color: #F9B81F;
 }
 
-/************************** 
-* 16. countdown styles 
+/**************************
+* 16. countdown styles
 ***************************/
 .count-down-style-one-wrapper {
     position: relative;
@@ -2860,8 +2865,8 @@ footer.site-footer.blue-bg .single-footer-widget ul.links-list li a:hover {
     line-height: 45px;
 }
 
-/************************** 
-* 17. cta styles 
+/**************************
+* 17. cta styles
 ***************************/
 .cta-style-one .cta-style-one-content {
     padding-left: 23px;
@@ -3034,8 +3039,8 @@ footer.site-footer.blue-bg .single-footer-widget ul.links-list li a:hover {
     margin-bottom: 60px;
 }
 
-/************************** 
-* 18. testimonials styles 
+/**************************
+* 18. testimonials styles
 ***************************/
 .testimonials-style-one-carousel .single-testimonials-style-one {
     padding-left: 215px;
@@ -3115,8 +3120,8 @@ footer.site-footer.blue-bg .single-footer-widget ul.links-list li a:hover {
     color: #F9B81F;
 }
 
-/************************** 
-* 19. brand styles 
+/**************************
+* 19. brand styles
 ***************************/
 .brand-carousel i {
     font-size: 155px;
@@ -3169,8 +3174,8 @@ footer.site-footer.blue-bg .single-footer-widget ul.links-list li a:hover {
     color: #fff;
 }
 
-/************************** 
-* 20. btc ticker styles 
+/**************************
+* 20. btc ticker styles
 ***************************/
 .btc-static-ticker {
     background: #45319E;
@@ -3217,8 +3222,8 @@ footer.site-footer.blue-bg .single-footer-widget ul.links-list li a:hover {
     font-size: 11px;
 }
 
-/************************** 
-* 21. video box styles 
+/**************************
+* 21. video box styles
 ***************************/
 .video-box-style-one .video-box {
     position: relative;
@@ -3300,8 +3305,8 @@ footer.site-footer.blue-bg .single-footer-widget ul.links-list li a:hover {
     color: #707070;
 }
 
-/************************** 
-* 22. video box styles 
+/**************************
+* 22. video box styles
 ***************************/
 .token-distribution .token-distribution-content span {
     font-size: 18px;
@@ -3532,8 +3537,8 @@ footer.site-footer.blue-bg .single-footer-widget ul.links-list li a:hover {
     left: 2.9%;
 }
 
-/************************** 
-* 23. timeline styles 
+/**************************
+* 23. timeline styles
 ***************************/
 .timeline-style-one .tab-title-list {
     position: relative;
@@ -3637,8 +3642,8 @@ footer.site-footer.blue-bg .single-footer-widget ul.links-list li a:hover {
     margin-top: 40px;
 }
 
-/************************** 
-* 24. token sales styles 
+/**************************
+* 24. token sales styles
 ***************************/
 .buy-token .token-graph .img-box {
     position: relative;
@@ -3676,8 +3681,8 @@ footer.site-footer.blue-bg .single-footer-widget ul.links-list li a:hover {
     color: #fff;
 }
 
-/************************** 
-* 25. press release styles 
+/**************************
+* 25. press release styles
 ***************************/
 .single-press-release {
     text-align: center;
@@ -3720,8 +3725,8 @@ footer.site-footer.blue-bg .single-footer-widget ul.links-list li a:hover {
     transform: rotateY(0deg);
 }
 
-/************************** 
-* 26. contact styles 
+/**************************
+* 26. contact styles
 ***************************/
 form.contact-form input,
 form.contact-form textarea {
@@ -3930,8 +3935,8 @@ form.contact-form button.thm-btn {
     color: #181818;
 }
 
-/************************** 
-* 27. coin statics styles 
+/**************************
+* 27. coin statics styles
 ***************************/
 .coin-statics .coin-statics-content span {
     font-size: 18px;
@@ -4002,8 +4007,8 @@ form.contact-form button.thm-btn {
     font-weight: 500;
 }
 
-/************************** 
-* 28. case study styles 
+/**************************
+* 28. case study styles
 ***************************/
 .case-study-style-one .single-case-study-one .img-box {
     position: relative;
@@ -4082,8 +4087,8 @@ form.contact-form button.thm-btn {
     margin-top: 5px;
 }
 
-/************************** 
-* 29. service styles 
+/**************************
+* 29. service styles
 ***************************/
 .services-style-one {
     padding-bottom: 60px;
@@ -4347,8 +4352,8 @@ form.contact-form button.thm-btn {
     margin-top: 5px;
 }
 
-/************************** 
-* 30. exchange styles 
+/**************************
+* 30. exchange styles
 ***************************/
 .exchange-table .table thead tr th {
     background: #F9B81F;
@@ -4461,8 +4466,8 @@ form.contact-form button.thm-btn {
     color: #fff;
 }
 
-/************************** 
-* 31. inner banner styles 
+/**************************
+* 31. inner banner styles
 ***************************/
 .inner-banner {
     padding: 38px 0;
@@ -4516,8 +4521,8 @@ form.contact-form button.thm-btn {
     color: #fff;
 }
 
-/************************** 
-* 32. errpr 404 styles 
+/**************************
+* 32. errpr 404 styles
 ***************************/
 .error-404 {
     background: #F9B81F;
@@ -4581,8 +4586,8 @@ form.contact-form button.thm-btn {
     margin-top: 38px;
 }
 
-/************************** 
-* 33. transfer btc styles 
+/**************************
+* 33. transfer btc styles
 ***************************/
 .transfer-btc {
     text-align: center;
@@ -4602,8 +4607,8 @@ form.contact-form button.thm-btn {
     margin-bottom: 50px;
 }
 
-/************************** 
-* 34. sidebar styles 
+/**************************
+* 34. sidebar styles
 ***************************/
 .sidebar .single-sidebar + .single-sidebar {
     margin-top: 50px;
