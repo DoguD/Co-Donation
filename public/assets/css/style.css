@@ -1409,8 +1409,9 @@ body.active-preloader-ovh {
 }
 
 .main-page-crypto-logo {
-    width: 140px;
-    height: 140px;
+    width: 100%;
+    height: 100%;
+    display: flex;
 }
 
 .feature-style-one .single-feature-style-one .icon-box i {
